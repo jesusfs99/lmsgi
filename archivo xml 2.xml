@@ -1,0 +1,8 @@
+<?xmlversion="1.0"?>
+<xs:element name="Alumno" type="personinfo"/>
+<xs:complexType name="Alumno">
+  <xs:sequence>
+    <xs:element name="Fernández" type="xs:string"/>
+    <xs:element name="Sánchez" type="xs:string"/>
+  </xs:sequence>
+</xs:complexType>
